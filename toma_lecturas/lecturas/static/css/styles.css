@@ -1,0 +1,30 @@
+.form-container .form-background {
+    background-color: #f0f4f8;
+ 
+    justify-content: center;
+ 
+  
+    margin: 0;
+    
+}
+
+.form-container .card {
+    display: flex;
+    flex-direction: column; /* Asegura que los hijos se apilen verticalmente */
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #d4dde0, #84bee0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    
+    padding: 20px;
+}
+
+.form-container .card-body {
+    width: 100%;
+
+}
+
+
+

@@ -1,0 +1,33 @@
+
+   .navbar {
+      background-color: #ffffff !important; /* Asegura que el fondo sea blanco */
+    }
+    .navbar-brand img {
+      margin-right: 10px; /* Espacio opcional entre el logo y el texto */
+    }
+    .nav-item {
+      margin-left: 15px; /* Margen izquierdo personalizado para los ítems de navegación */
+    }
+    .nav-link {
+      color: black !important; /* Asegura que el texto sea negro */
+      transition: color 0.3s ease; /* Transición suave para el cambio de color */
+    }
+    .nav-link:hover {
+      color: blue !important; /* Cambia el color del texto a azul al pasar el cursor */
+    }
+    .navbar-text {
+        color: black !important; /* Asegura que el texto del usuario sea negro */
+        display: flex;
+        align-items: center;
+        padding: 5px 10px; /* Espacio interior de la caja */
+        
+    }
+    .navbar-text i {
+      margin-right: 3px; /* Espacio entre el icono y el nombre del usuario */
+      color: #0000FF;
+    }
+    .card{
+      display: flex;
+      align-items: center;
+      background-image: linear-gradient( to right, #d4dde0, #84bee0);
+    }
